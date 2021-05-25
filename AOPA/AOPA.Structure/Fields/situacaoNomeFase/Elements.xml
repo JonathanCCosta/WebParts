@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{518e1be7-6535-4a61-bbd6-61199bb4a961}"
+       Name="situacaoNomeFase"
+       DisplayName="Fase da Revisão"
+       Type="Lookup"
+       Required="TRUE"
+       ShowField="Title"
+       List="Lists/FaseRevisaoElaboracao"
+       Indexed="TRUE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

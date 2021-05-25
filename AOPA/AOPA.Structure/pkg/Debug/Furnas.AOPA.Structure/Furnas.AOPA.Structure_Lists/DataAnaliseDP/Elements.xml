@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{c269ce38-664e-4085-9a90-583d4caf3f9a}"
+       Name="DataAnaliseDP"
+       DisplayName="Data Análise DP"
+       Type="DateTime"
+       Required="FALSE"
+       Format="DateOnly"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

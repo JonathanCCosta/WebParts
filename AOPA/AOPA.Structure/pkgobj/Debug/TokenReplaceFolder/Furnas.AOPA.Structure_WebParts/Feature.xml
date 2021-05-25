@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="22d0b4f6-c40f-4379-b2d5-e93fbc974296" ReceiverAssembly="Furnas.AOPA.Structure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9148c93a37c2f3dc" ReceiverClass="Furnas.AOPA.Structure.Features.WebPart.WebPartEventReceiver" Scope="Site" Title="Furnas.AOPA.Structure WebPart">
+  <ElementManifests>
+    <ElementManifest Location="Ato_Display_Revisao\Elements.xml" />
+    <ElementFile Location="Ato_Display_Revisao\Ato_Display_Revisao.webpart" />
+    <ElementManifest Location="Ato_NovaRevisao\Elements.xml" />
+    <ElementFile Location="Ato_NovaRevisao\Ato_NovaRevisao.webpart" />
+    <ElementManifest Location="Ato_Editar_Revisao\Elements.xml" />
+    <ElementFile Location="Ato_Editar_Revisao\Ato_Editar_Revisao.webpart" />
+    <ElementManifest Location="Minuta_Display\Elements.xml" />
+    <ElementFile Location="Minuta_Display\Minuta_Display.webpart" />
+    <ElementManifest Location="Minuta_Lista_E_Edicao\Elements.xml" />
+    <ElementFile Location="Minuta_Lista_E_Edicao\Minuta_Lista_E_Edicao.webpart" />
+    <ElementManifest Location="Minuta_Acoes_Add_Edicao\Elements.xml" />
+    <ElementFile Location="Minuta_Acoes_Add_Edicao\Minuta_Acoes_Add_Edicao.webpart" />
+    <ElementManifest Location="Minuta_AnaliseConsolidacao\Elements.xml" />
+    <ElementFile Location="Minuta_AnaliseConsolidacao\Minuta_AnaliseConsolidacao.webpart" />
+    <ElementManifest Location="Minuta_Preparacao\Elements.xml" />
+    <ElementFile Location="Minuta_Preparacao\Minuta_Preparacao.webpart" />
+  </ElementManifests>
+</Feature>

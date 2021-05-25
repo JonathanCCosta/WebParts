@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Tipo de Manual" OnQuickLaunch="TRUE" TemplateType="10000" Url="Lists/TipoManual" Description="Tipos de Manuais para um conjunto de Atos Normativos de um mesmo tema.">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Tipo Manual 1</Field>
+          <Field Name="Ordenação">0</Field>
+          <Field Name="Apresentação do Manual">Teste</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Tipo Manual 2</Field>
+          <Field Name="Ordenação">1</Field>
+          <Field Name="Apresentação do Manual">Teste2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Tipo Manual 3</Field>
+          <Field Name="Ordenação">3</Field>
+          <Field Name="Apresentação do Manual">Teste3</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

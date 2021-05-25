@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{31907a77-0749-4237-9b03-f4fd279bfa77}"
+       Name="prazoRN"
+       DisplayName="Prazo RN"
+        Type="DateTime"
+       Required="FALSE"
+       Format="DateOnly"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="ec03a9da-f06b-4963-a791-e13112e09c0a" ResetWebServer="TRUE" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Furnas.AOPA.Structure.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="Furnas.AOPA.Structure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9148c93a37c2f3dc" Namespace="Furnas.AOPA.Structure.Webpart.Ato_Display_Revisao" TypeName="*" />
+        <SafeControl Assembly="Furnas.AOPA.Structure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9148c93a37c2f3dc" Namespace="Furnas.AOPA.Structure.Webpart.Ato_NovaRevisao" TypeName="*" />
+        <SafeControl Assembly="Furnas.AOPA.Structure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9148c93a37c2f3dc" Namespace="Furnas.AOPA.Structure.Webparts.Ato_Editar_Revisao" TypeName="*" />
+        <SafeControl Assembly="Furnas.AOPA.Structure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9148c93a37c2f3dc" Namespace="Furnas.AOPA.Structure.Webparts.Minuta_Display" TypeName="*" />
+        <SafeControl Assembly="Furnas.AOPA.Structure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9148c93a37c2f3dc" Namespace="Furnas.AOPA.Structure.Webparts.Minuta_Lista_E_Edicao" TypeName="*" />
+        <SafeControl Assembly="Furnas.AOPA.Structure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9148c93a37c2f3dc" Namespace="Furnas.AOPA.Structure.Webparts.Minuta_Acoes_Add_Edicao" TypeName="*" />
+        <SafeControl Assembly="Furnas.AOPA.Structure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9148c93a37c2f3dc" Namespace="Furnas.AOPA.Structure.Webparts.Minuta_AnaliseConsolidacao" TypeName="*" />
+        <SafeControl Assembly="Furnas.AOPA.Structure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9148c93a37c2f3dc" Namespace="Furnas.AOPA.Structure.Webparts.Minuta_Preparacao" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="Furnas.AOPA.Structure_Lists\Feature.xml" />
+    <FeatureManifest Location="Furnas.AOPA.Structure_WebParts\Feature.xml" />
+  </FeatureManifests>
+</Solution>

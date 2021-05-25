@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="8b6ffbd7-6878-42e6-9234-2ecbcb3b0744" 
+        solutionId="8b6ffbd7-6878-42e6-9234-2ecbcb3b0744" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Furnas.AOPA.Base"
+        sharePointProductVersion="15.0">
+</package>

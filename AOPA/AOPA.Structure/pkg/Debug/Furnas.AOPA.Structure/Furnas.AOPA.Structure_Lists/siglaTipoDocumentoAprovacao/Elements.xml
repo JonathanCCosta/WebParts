@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{a96ef9a5-f276-4bf2-af99-c0773331971f}"
+       Name="siglaTipoDocumentoAprovacao"
+       DisplayName="Documento"
+       Type="Lookup"
+       List="Lists/TipoDocumentoAprovacao"
+       ShowField="Sigla"
+       Required="FALSE"
+       Indexed="TRUE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

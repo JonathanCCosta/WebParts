@@ -1,0 +1,5 @@
+C:\PGA6\PGA6 [RTC] - Código\Furnas.AOPA\Furnas.AOPA.Base\bin\Debug\Furnas.AOPA.Base.dll
+C:\PGA6\PGA6 [RTC] - Código\Furnas.AOPA\Furnas.AOPA.Base\bin\Debug\Furnas.AOPA.Base.pdb
+C:\PGA6\PGA6 [RTC] - Código\Furnas.AOPA\Furnas.AOPA.Base\obj\Debug\Furnas.AOPA.Base.dll
+C:\PGA6\PGA6 [RTC] - Código\Furnas.AOPA\Furnas.AOPA.Base\obj\Debug\Furnas.AOPA.Base.pdb
+C:\PGA6\PGA6 [RTC] - Código\Furnas.AOPA\Furnas.AOPA.Base\obj\Debug\Furnas.AOPA.Base.csprojResolveAssemblyReference.cache

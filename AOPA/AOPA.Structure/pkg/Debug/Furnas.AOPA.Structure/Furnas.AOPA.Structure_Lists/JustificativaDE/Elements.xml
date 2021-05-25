@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{af6ca639-8567-4924-b528-f32f2aa8c9d9}"
+       Name="JustificativaDE"
+       DisplayName="Justificativa DE"
+       Type="Note"
+       NumLines="6"
+       Required="FALSE"
+       RichText="TRUE"
+       RichTextMode="FullHtml"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

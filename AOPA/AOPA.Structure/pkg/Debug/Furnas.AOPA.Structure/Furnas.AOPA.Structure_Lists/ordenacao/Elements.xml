@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{a03fde8b-baf9-4834-96ad-224a26dd9ac9}"
+       Name="ordenacao"
+       DisplayName="Ordenação"
+       Type="Number"
+       Required="TRUE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

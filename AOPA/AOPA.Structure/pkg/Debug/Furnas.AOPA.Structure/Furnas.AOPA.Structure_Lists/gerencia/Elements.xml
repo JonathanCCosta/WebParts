@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{e52a2db4-7407-4f4b-ad1f-04de1c2b76cd}"
+       Name="gerencia"
+       DisplayName="Gerência"
+       Type="BusinessData"
+       Required="FALSE"
+       BaseType="Text"
+       List="Lists/OrgaosFurnas"
+       ShowField="Gerência"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

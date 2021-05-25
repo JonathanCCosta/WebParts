@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{607e0ab8-65b0-48d7-ba94-f5d0166e6562}"
+       Name="dataVigencia"
+       DisplayName="Data Vigência"
+       Type="DateTime"
+       Required="FALSE"
+       Format="DateOnly"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

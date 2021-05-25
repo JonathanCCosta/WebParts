@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{087d55c3-66c2-4385-9d11-d4b35657da23}"
+       Name="diretoria"
+       DisplayName="Diretoria"
+       Type="Choice"
+       Required="FALSE"
+       Format="Dropdown"
+       Group="AOPA - Colunas">
+    <CHOICES>
+      <CHOICE>DA</CHOICE>
+      <CHOICE>DE</CHOICE>
+      <CHOICE>DF</CHOICE>
+      <CHOICE>DN</CHOICE>
+      <CHOICE>DP</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>

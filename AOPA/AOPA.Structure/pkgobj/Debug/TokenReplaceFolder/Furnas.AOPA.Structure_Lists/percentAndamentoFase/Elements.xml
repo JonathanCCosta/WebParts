@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{cced448e-46dd-4ad0-a1fd-3a11011e9774}"
+       Name="percentAndamentoFase"
+       DisplayName="Andamento da Fase"
+       Type="Lookup"
+       Required="True"
+       ShowField="percentualandamento"
+       List="Lists/AndamentoFase"
+       ShowInNewForm="FALSE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

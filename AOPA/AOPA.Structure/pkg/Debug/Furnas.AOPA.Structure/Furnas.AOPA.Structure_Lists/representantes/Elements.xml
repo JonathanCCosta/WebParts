@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+       ID="{9da388cc-5f10-40f4-a3ab-784578aac87d}"
+       Name="representantes"
+       DisplayName="Representantes"
+       Type="UserMulti"
+       List="UserInfo"
+       ShowField="ImnName"
+       Indexed="TRUE"
+       EnforceUniqueValues="FALSE"
+       UserSelectionMode="PeopleOnly"
+       Required="FALSE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

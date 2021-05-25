@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{74b4ede8-9421-4ae9-92d8-8aac9c685e06}"
+       Name="destaqueDaSemana"
+       DisplayName="Destaque Da Semana"
+       Type="Boolean"
+       Required="FALSE"
+       Group="AOPA - Colunas">
+    <Default>0</Default>
+  </Field>
+</Elements>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{4a76491a-2739-40a4-99ea-fb900a433205}"
+       Name="TextoFinal"
+       DisplayName="Texto Final"
+       Type="Note"
+       NumLines="6"
+       Required="FALSE"
+       RichText="TRUE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

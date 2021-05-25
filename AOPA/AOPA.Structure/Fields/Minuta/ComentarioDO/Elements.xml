@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{834a37e3-c184-4a38-b43b-684fae12f880}"
+       Name="ComentarioDO"
+       DisplayName="Comentário DO"
+       Type="Note"
+       NumLines="6"
+       Required="FALSE"
+       RichText="TRUE"
+       RichTextMode="FullHtml"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

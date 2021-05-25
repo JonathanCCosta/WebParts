@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="8b6ffbd7-6878-42e6-9234-2ecbcb3b0744" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Furnas.AOPA.Base.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+</Solution>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{e2fc9154-b3de-4eaa-b0f8-69aacd1578eb}"
+       Name="dataInterrupcao"
+       DisplayName="Data Interrupção"
+       Type="DateTime"
+       Required="FALSE"
+       Format="DateOnly"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

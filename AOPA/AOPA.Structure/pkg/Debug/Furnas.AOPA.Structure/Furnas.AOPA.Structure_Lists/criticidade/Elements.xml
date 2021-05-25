@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{7b813373-ff99-401d-bfda-487b67464ee1}"
+       Name="criticidade"
+       DisplayName="Criticidade"
+       Type="Choice"
+       Format="Dropdown"
+       Required="FALSE"
+       Group="AOPA - Colunas">
+    <CHOICES>
+      <CHOICE>0 - Baixa</CHOICE>
+      <CHOICE>1 - Média</CHOICE>
+      <CHOICE>2 - Alta</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>

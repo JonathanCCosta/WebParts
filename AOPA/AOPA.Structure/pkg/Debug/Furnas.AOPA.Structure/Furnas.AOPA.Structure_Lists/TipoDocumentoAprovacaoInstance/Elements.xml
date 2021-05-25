@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Tipo de Documento de Aprovação" OnQuickLaunch="TRUE" TemplateType="10005" Url="Lists/TipoDocumentoAprovacao" Description="Tipos de documento utilizado para aprovação do Ato Normativo.">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name='Title'>Comunicação Interna</Field>
+          <Field Name='Sigla'>CI</Field>
+        </Row>
+        <Row>
+          <Field Name='Title'>Resolução do Conselho de Administração</Field>
+          <Field Name='Sigla'>RCA</Field>
+        </Row>
+        <Row>
+          <Field Name='Title'>Resolução de Diretoria</Field>
+          <Field Name='Sigla'>RD</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

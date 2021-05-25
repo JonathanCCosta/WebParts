@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{184ad99e-9882-44d6-8e11-32b56db700ad}"
+       Name="lookup_HistoricoRetornoRN"
+       DisplayName="Retorno RN"
+       Type="LookupMulti"
+       Required="FALSE"
+       ShowField="DataRetornoRN"
+       Mult="TRUE"
+       ShowInNewForm="FALSE"
+       List="Lists/historicoRetornoRN"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

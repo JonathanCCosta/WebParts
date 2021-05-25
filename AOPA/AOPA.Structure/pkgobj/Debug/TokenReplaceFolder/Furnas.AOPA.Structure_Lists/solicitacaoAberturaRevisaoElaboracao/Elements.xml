@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{b28d4b35-9d14-470e-bace-a14a452f1720}"
+       Name="solicitacaoAberturaRevisaoElaboracao"
+       DisplayName="Solicitação de Abertura da Revisão/Elaboração"
+       Type="Text"
+       Required="FALSE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

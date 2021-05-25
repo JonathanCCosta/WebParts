@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{1587f77f-3316-4f87-acbe-953a25712ee9}"
+       Name="lookup_AtoNormato"
+       DisplayName="Ato Normativo"
+       Type="Lookup"
+       Required="FALSE"
+       ShowField="Title"
+       List="Lists/Ato Normativo"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

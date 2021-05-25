@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{f0a78639-7b31-41dd-b409-986a407f8770}"
+       Name="acao"
+       DisplayName="Ação"
+       Type="Note"
+       NumLines="6"
+       RichText="FALSE"
+       Required="FALSE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

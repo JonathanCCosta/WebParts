@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{30d2da52-9fbe-422d-b6a1-26214bd0c201}"
+       Name="divisao"
+       DisplayName="Divisão"
+       Type="BusinessData"
+       Required="FALSE"
+       BaseType="Text"
+       List="Lists/OrgaosFurnas"
+       ShowField="Divisão"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

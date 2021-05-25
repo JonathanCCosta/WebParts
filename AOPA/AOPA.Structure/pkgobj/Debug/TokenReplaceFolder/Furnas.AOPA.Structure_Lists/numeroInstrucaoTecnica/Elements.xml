@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{f0982b2a-02b7-4e5b-a543-70699c5b9a32}"
+       Name="numeroInstrucaoTecnica"
+       DisplayName="Número Instrução Técnica"
+       Type="Number"
+       Required="FALSE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

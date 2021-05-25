@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="10017">
+      <Receiver>
+        <Name>ER_MinutaItemAdding</Name>
+        <Type>ItemAdding</Type>
+        <Assembly>Furnas.AOPA.Structure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9148c93a37c2f3dc</Assembly>
+        <Class>Furnas.AOPA.Structure.EventReceiver.ER_Minuta.ER_Minuta</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>ER_MinutaItemAdded</Name>
+        <Type>ItemAdded</Type>
+        <Assembly>Furnas.AOPA.Structure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9148c93a37c2f3dc</Assembly>
+        <Class>Furnas.AOPA.Structure.EventReceiver.ER_Minuta.ER_Minuta</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+<Receiver>
+<Name>ER_MinutaItemUpdating</Name>
+<Type>ItemUpdating</Type>
+<Assembly>Furnas.AOPA.Structure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9148c93a37c2f3dc</Assembly>
+<Class>Furnas.AOPA.Structure.EventReceiver.ER_Minuta.ER_Minuta</Class>
+<SequenceNumber>10000</SequenceNumber>
+  <Synchronization>Synchronous</Synchronization>
+</Receiver>
+<Receiver>
+<Name>ER_MinutaItemUpdated</Name>
+<Type>ItemUpdated</Type>
+<Assembly>Furnas.AOPA.Structure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9148c93a37c2f3dc</Assembly>
+<Class>Furnas.AOPA.Structure.EventReceiver.ER_Minuta.ER_Minuta</Class>
+<SequenceNumber>10000</SequenceNumber>
+</Receiver>
+</Receivers>
+</Elements>

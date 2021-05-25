@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{7c0c8656-c9e1-400a-bf32-b14b52b1af0e}"
+       Name="dataLimiteEntradaRevisao"
+       DisplayName="Data Limite para Entrada em Revisão"
+       Type="DateTime"
+       Required="FALSE"
+       Format="DateOnly"
+       Group="AOPA - Colunas">
+    <DefaultFormula>=[Data Vencimento]-60</DefaultFormula>
+  </Field>
+</Elements>

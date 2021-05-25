@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{a69b3e4a-3fb9-4241-8e83-753e3cb8b520}"
+       Name="origemAssunto"
+       DisplayName="Origem Assunto"
+       Type="Choice"
+       Required="FALSE"
+       Group="AOPA - Colunas">
+    <Default>FR - Formulário</Default>
+    <CHOICES>
+      <CHOICE>AN - Ato Normativo</CHOICE>
+      <CHOICE>FR - Formulário</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{dc92e337-1260-4f83-ad47-436ba5b2cbf2}"
+       Name="nomemanual"
+       DisplayName="Manual"
+       Type="Lookup"
+       Required="FALSE"
+       ShowField="Title"
+       List="lists/TipoManual"
+       Indexed="TRUE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

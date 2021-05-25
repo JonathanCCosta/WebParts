@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Links Promovidos Home" OnQuickLaunch="FALSE" TemplateType="170" FeatureId="192efa95-e50c-475e-87ab-361cede5dd7f" Url="Lists/LinksPromovidosHome" Description="Lista de Links Promovidos Home page.">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Atos Normativos</Field>
+          <Field Name="BackgroundImageLocation">/portalaopa/SiteAssets/Styles/Icones/atosnormativos.gif</Field>
+          <Field Name="LinkLocation">http://furnasnetnova</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Políticas</Field>
+          <Field Name="BackgroundImageLocation">/portalaopa/SiteAssets/Styles/Icones/atosnormativos.gif</Field>
+          <Field Name="Description"></Field>
+          <Field Name="LinkLocation">http://furnasnetnova</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Instruções Técnicas</Field>
+          <Field Name="BackgroundImageLocation">/portalaopa/SiteAssets/Styles/Icones/atosnormativos.gif</Field>
+          <Field Name="Description"></Field>
+          <Field Name="LinkLocation">http://furnasnetnova</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Estatuto/Regimentos</Field>
+          <Field Name="BackgroundImageLocation">/portalaopa/SiteAssets/Styles/Icones/atosnormativos.gif</Field>
+          <Field Name="Description"></Field>
+          <Field Name="LinkLocation">http://furnasnetnova</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Resultados</Field>
+          <Field Name="BackgroundImageLocation">/portalaopa/SiteAssets/Styles/Icones/atosnormativos.gif</Field>
+          <Field Name="Description"></Field>
+          <Field Name="LinkLocation">http://furnasnetnova</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Furnas e a gestão por Processos</Field>
+          <Field Name="BackgroundImageLocation">/portalaopa/SiteAssets/Styles/Icones/gestaoprocessos.gif</Field>
+          <Field Name="Description"></Field>
+          <Field Name="LinkLocation">http://furnasnetnova</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Arquitetura de Processos</Field>
+          <Field Name="BackgroundImageLocation">/portalaopa/SiteAssets/Styles/Icones/gestaoprocessos.gif</Field>
+          <Field Name="Description"></Field>
+          <Field Name="LinkLocation">http://furnasnetnova</Field>
+          <Field Name="Order">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Colegiados e Grupos</Field>
+          <Field Name="BackgroundImageLocation">/portalaopa/SiteAssets/Styles/Icones/organizacao.gif</Field>
+          <Field Name="Description"></Field>
+          <Field Name="LinkLocation">http://furnasnetnova</Field>
+          <Field Name="Order">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Atribuições</Field>
+          <Field Name="BackgroundImageLocation">/portalaopa/SiteAssets/Styles/Icones/organizacao.gif</Field>
+          <Field Name="Description"></Field>
+          <Field Name="LinkLocation">http://furnasnetnova</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Formulários</Field>
+          <Field Name="BackgroundImageLocation">/portalaopa/SiteAssets/Styles/Icones/organizacao.gif</Field>
+          <Field Name="Description"></Field>
+          <Field Name="LinkLocation">http://furnasnetnova</Field>
+          <Field Name="Order">10</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Organograma</Field>
+          <Field Name="BackgroundImageLocation">/portalaopa/SiteAssets/Styles/Icones/organizacao.gif</Field>
+          <Field Name="Description"></Field>
+          <Field Name="LinkLocation">http://furnasnetnova</Field>
+          <Field Name="Order">11</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Relação de Órgãos e Chefias - ROC</Field>
+          <Field Name="BackgroundImageLocation">/portalaopa/SiteAssets/Styles/Icones/organizacao.gif</Field>
+          <Field Name="Description"></Field>
+          <Field Name="LinkLocation">http://furnasnetnova</Field>
+          <Field Name="Order">12</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

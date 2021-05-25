@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ec03a9da-f06b-4963-a791-e13112e09c0a" solutionId="ec03a9da-f06b-4963-a791-e13112e09c0a" resetWebServer="true" sharePointProductVersion="15.0" name="Furnas.AOPA.Structure" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="a9859220-5c15-4f8f-b578-fa1ffba17aca" />
+    <featureReference itemId="c6ab491d-8a0e-462e-8782-2ff6f2f6f50b" />
+  </features>
+</package>

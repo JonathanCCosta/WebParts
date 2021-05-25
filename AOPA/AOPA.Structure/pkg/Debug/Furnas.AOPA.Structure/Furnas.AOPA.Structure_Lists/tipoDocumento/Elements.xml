@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{a23385a9-3a55-4bb1-a1a6-8bed15b05481}"
+       Name="tipoDocumento"
+       DisplayName="Tipo de Documento"
+       Type="Choice"
+       Required="FALSE"
+       Group="AOPA - Colunas">
+    <CHOICES>
+      <CHOICE>A - Aprovação</CHOICE>
+      <CHOICE>E - Extinção</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>

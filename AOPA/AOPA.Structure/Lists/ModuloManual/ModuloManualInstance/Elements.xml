@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Módulo do Manual" OnQuickLaunch="TRUE" TemplateType="10001" Url="Lists/ModuloManual" Description="Módulo de um manual específico de Atos Normativos.">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">teste1</Field>
+          <Field Name="Ordenação">0</Field>
+          <Field Name="Nome do Manual">1;#Tipo Manual 1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">teste2</Field>
+          <Field Name="Ordenação">1</Field>
+          <Field Name="Nome do Manual">2;#Tipo Manual 2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">teste3</Field>
+          <Field Name="Ordenação">2</Field>
+          <Field Name="Nome do Manual">3;#Tipo Manual 3</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

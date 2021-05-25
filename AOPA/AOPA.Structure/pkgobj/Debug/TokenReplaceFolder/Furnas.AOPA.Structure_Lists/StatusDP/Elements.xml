@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{4e614ef1-e541-4966-baa1-6d3397ac10a7}"
+       Name="StatusDP"
+       DisplayName="Status DP"
+       Type="Choice"
+       Format="Dropdown"
+       Required="FALSE"
+       Group="AOPA - Colunas">
+    <CHOICES>
+      <CHOICE>Incorporado</CHOICE>
+      <CHOICE>Não Incorporado</CHOICE>
+      <CHOICE>Parcialmente Incorporado</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>

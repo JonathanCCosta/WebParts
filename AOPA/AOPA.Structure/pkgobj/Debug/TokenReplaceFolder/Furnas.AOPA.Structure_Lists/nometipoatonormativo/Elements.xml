@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+       ID="{fd73bcf2-1139-4633-8891-779deb74741d}"
+       Name="nometipoatonormativo"
+       DisplayName="Tipo de Ato Normativo"
+       Type="Lookup"
+       Required="TRUE"
+       ShowField="Title"
+       List="Lists/TipoAtoNormativo"
+       Indexed="TRUE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

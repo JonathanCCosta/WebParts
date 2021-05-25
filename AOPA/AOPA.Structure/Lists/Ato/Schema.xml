@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Ato" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Ato" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x0100AE00DB6D351743E3BEFB883FFCDEB9DE" Name="Instrução Normativa" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+        <FieldRefs>
+          <FieldRef ID="{57b81e72-feb3-48f3-b179-e1746a0d694d}" DisplayName="Situação" Required="TRUE" Name="situacaoAtoNormativoN" ShowInNewForm="FALSE" />
+          <FieldRef ID="{6ebca792-0d09-47e5-9589-594c93b42931}" DisplayName="Número Revisão" Required="FALSE" Name="numeroRevisao" ShowInNewForm="FALSE" ShowInEditForm="FALSE" />
+          <FieldRef ID="{2f7c2c01-858a-433e-bc80-947b493ddc02}" DisplayName="Número Validação" Required="FALSE" Name="numeroValidacao" ShowInNewForm="FALSE" ShowInEditForm="FALSE" />
+          <FieldRef ID="{b6e00c16-c090-4df5-9974-f0c99070abc3}" DisplayName="Número Ato Normativo Antigo" Required="FALSE" Name="numeroAtoNormativoAntigo" />
+          <FieldRef ID="{dc92e337-1260-4f83-ad47-436ba5b2cbf2}" DisplayName="Manual" Required="TRUE" Name="nomemanual" />
+          <FieldRef ID="{5fc12400-9218-4854-ba00-158aeb82509f}" DisplayName="Módulo" Name="nomemodulomanual" Required="TRUE" />
+          <FieldRef ID="{0c042f56-4828-478b-8dca-e319d1a8dd82}" DisplayName="Macroprocesso" Required="TRUE" Name="nomeMacroprocesso" />
+          <FieldRef ID="{b1f21be5-2a41-4939-90b8-3060141502a3}" DisplayName="Processo" Required="TRUE" Name="nomeProcesso" />
+          <FieldRef ID="{7b813373-ff99-401d-bfda-487b67464ee1}" DisplayName="Criticidade" Required="TRUE" Name="criticidade" Format="Dropdown" />
+          <FieldRef ID="{30033299-a53d-46d0-ba36-14a95f69ccd3}" DisplayName="Responsável Técnico" Required="TRUE" Name="responsavelTecnico" />
+          <FieldRef ID="{ef09650c-d47b-4624-8278-8a4271f0a6c2}" DisplayName="Analista AOP.A" Required="TRUE" Name="analistaAOPA" />
+          <FieldRef ID="{b28d4b35-9d14-470e-bace-a14a452f1720}" DisplayName="Solicitação de Abertura da Revisão/Elaboração" Required="TRUE" Name="solicitacaoAberturaRevisaoElaboracao" ShowInEditForm="FALSE" />
+          <FieldRef ID="{b529cb4e-e498-4eb0-a417-c5be4df6f26d}" DisplayName="Data da Solicitação da Abertura Revisão/Elaboração" Required="TRUE" ShowInEditForm="FALSE" Name="dataSolicitacaoAberturaRevisaoElaboracao" Format="DateOnly" />
+          <FieldRef ID="{a555e022-1f61-49df-a8af-266a9c06bcbe}" DisplayName="Justificativa Revisão Elaboração" Required="TRUE" Name="justificativaRevisaoElaboracao" NumLines="6" />
+          <FieldRef ID="{b7eebf5b-a701-41ae-84b2-0070ef217415}" DisplayName="Data Início Revisão" Required="FALSE" Name="dataInicioRevisao" Format="DateOnly" ShowInNewForm="FALSE" />
+          <FieldRef ID="{518e1be7-6535-4a61-bbd6-61199bb4a961}" DisplayName="Fase da Revisão" Required="TRUE" Name="situacaoNomeFase" ShowInNewForm="FALSE" />
+          <FieldRef ID="{cced448e-46dd-4ad0-a1fd-3a11011e9774}" DisplayName="Andamento da Fase" Required="True" Name="percentAndamentoFase" ShowInNewForm="FALSE" />
+          <FieldRef ID="{b158db9e-167f-4f58-a649-043d1c6d03bf}" DisplayName="Data Vencimento" Required="FALSE" Name="dataVencimento" Format="DateOnly" ShowInNewForm="FALSE" />
+          <FieldRef ID="{7c0c8656-c9e1-400a-bf32-b14b52b1af0e}" DisplayName="Data Limite para Entrada em Revisão" Required="FALSE" Name="dataLimiteEntradaRevisao" Format="DateOnly" ShowInNewForm="FALSE" />
+          <FieldRef ID="{f0a78639-7b31-41dd-b409-986a407f8770}" DisplayName="Ação" Required="FALSE" Name="acao" NumLines="6" ShowInNewForm="FALSE" />
+          <FieldRef ID="{74b4ede8-9421-4ae9-92d8-8aac9c685e06}" DisplayName="Destaque Da Semana" Required="FALSE" Name="destaqueDaSemana" ShowInNewForm="FALSE" />
+          <FieldRef ID="{77138a7b-f3cb-4db5-8769-d23a60347330}" DisplayName="Percentual de Andamento" Required="FALSE" Name="percentualandamento" ShowInNewForm="FALSE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" />
+          <FieldRef ID="{9634926d-7271-4137-8e69-07d135d3fbd8}" DisplayName="Pendência" Required="FALSE" Name="pendencia" ShowInNewForm="FALSE" />
+          <FieldRef ID="{9e2c1a51-638e-465d-b9aa-765ae1711001}" DisplayName="Data Pendência" Required="FALSE" Name="dataPendencia" Format="DateOnly" ShowInNewForm="FALSE" />
+          <FieldRef ID="{31907a77-0749-4237-9b03-f4fd279bfa77}" DisplayName="Prazo RN" Required="FALSE" Name="prazoRN" Format="DateOnly" ShowInNewForm="FALSE" />
+          <FieldRef ID="{184ad99e-9882-44d6-8e11-32b56db700ad}" DisplayName="Retorno RN" Required="FALSE" Name="lookup_HistoricoRetornoRN" ShowInNewForm="FALSE" ShowInEditForm="FALSE" />
+          <FieldRef ID="{4c651dfb-1c49-4c22-ace3-2d650f01b520}" DisplayName="Data Suspensão" Required="FALSE" Name="dataSuspensao" Format="DateOnly" ShowInNewForm="FALSE" />
+          <FieldRef ID="{d37ff21b-8a48-42ac-af7f-d88d5a5fa506}" DisplayName="Data Extinção" Required="FALSE" Name="dataExtincao" Format="DateOnly" ShowInNewForm="FALSE" />
+          <FieldRef ID="{e2fc9154-b3de-4eaa-b0f8-69aacd1578eb}" DisplayName="Data Interrupção" Required="FALSE" Name="dataInterrupcao" Format="DateOnly" ShowInNewForm="FALSE" />
+          <FieldRef ID="{ac167ea9-38f5-4452-955a-a2b2bf1b8a9b}" DisplayName="Data Conclusão Fase" Required="FALSE" Name="dataConclusaoFase" Format="DateOnly" ShowInNewForm="FALSE" />
+          <FieldRef ID="{607e0ab8-65b0-48d7-ba94-f5d0166e6562}" DisplayName="Data Vigência" Required="FALSE" Name="dataVigencia" Format="DateOnly" ShowInNewForm="FALSE" />
+          <FieldRef ID="{e2bdb472-e2f0-4ea0-98ab-fc6eeb4378d4}" DisplayName="Conclusão do Ajuste" Required="FALSE" Name="conclusaoAjuste" Format="DateOnly" ShowInNewForm="FALSE" ShowInEditForm="FALSE" />
+          <FieldRef ID="{49db3781-5070-42fa-b235-cf22d9148ebe}" DisplayName="Conclusão da Análise" Required="FALSE" Name="conclusaoAnalise" Format="DateOnly" ShowInNewForm="FALSE" ShowInEditForm="FALSE" />
+          <FieldRef ID="{576654ca-faba-4aec-90cc-324c36b80730}" DisplayName="Conclusão da Consolidação" Required="FALSE" Name="conclusaoConsolidacao" Format="DateOnly" ShowInNewForm="FALSE" ShowInEditForm="FALSE" />
+          <FieldRef ID="{1722d582-f622-4044-b898-96e9c502621c}" DisplayName="Conclusão Proposição" Required="FALSE" Name="conclusaoProposicao" Format="DateOnly" ShowInNewForm="FALSE" ShowInEditForm="FALSE" />
+          <FieldRef ID="{344e6aec-dea1-45d3-9e2e-9294b8cb578d}" DisplayName="Conclusão da Aprovação" Required="FALSE" Name="conclusaoAprovacao" Format="DateOnly" ShowInNewForm="FALSE" ShowInEditForm="FALSE" />
+          <FieldRef ID="{06d7e4a2-d830-49b8-a237-0dc66c376a2f}" DisplayName="Conclusão Publicação" Required="FALSE" Name="conclusaoPublicacao" Format="DateOnly" ShowInNewForm="FALSE" ShowInEditForm="FALSE" />
+          <FieldRef ID="{29864399-cc5b-49bd-9b06-718d495e3537}" DisplayName="Justificativa Aprovação Extinção" Required="FALSE" Name="justificativaAprovacaoExtincao" NumLines="6" ShowInNewForm="FALSE" ShowInEditForm="FALSE" />
+          <FieldRef ID="{97b17bb5-7ed7-49cd-a505-7119a07ec0ef}" DisplayName="Analista DA" Required="FALSE" Name="AnalistaDA" ShowInNewForm="FALSE" />
+          <FieldRef ID="{78bbd04f-b6ea-48ce-bad8-8fed465976a1}" DisplayName="Analista DE" Required="FALSE" Name="AnalistaDE" ShowInNewForm="FALSE" />
+          <FieldRef ID="{df791b3e-2a74-4d74-873c-48bd5e62e141}" DisplayName="Analista DF" Required="FALSE" Name="AnalistaDF" ShowInNewForm="FALSE" />
+          <FieldRef ID="{de009c38-e6fc-4d1c-b5d6-e69aae2dc025}" DisplayName="Analista DN" Required="FALSE" Name="AnalistaDN" ShowInNewForm="FALSE" />
+          <FieldRef ID="{a9d05cd7-c292-4981-8a22-79b3517e67ee}" DisplayName="Analista DO" Required="FALSE" Name="AnalistaDO" ShowInNewForm="FALSE" />
+          <FieldRef ID="{e2462bfb-dbd8-4035-aa70-e31bc990943d}" DisplayName="Analista DP" Required="FALSE" Name="AnalistaDP" ShowInNewForm="FALSE" />
+        </FieldRefs>
+      </ContentType>
+      <ContentType ID="0x0100fb7f3737d8b349d49ba2303bd31d0a4d" Name="ListFieldsContentType">
+        <FieldRefs>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{57b81e72-feb3-48f3-b179-e1746a0d694d}" Name="situacaoAtoNormativoN" />
+          <FieldRef ID="{6ebca792-0d09-47e5-9589-594c93b42931}" Name="numeroRevisao" />
+          <FieldRef ID="{2f7c2c01-858a-433e-bc80-947b493ddc02}" Name="numeroValidacao" />
+          <FieldRef ID="{b6e00c16-c090-4df5-9974-f0c99070abc3}" Name="numeroAtoNormativoAntigo" />
+          <FieldRef ID="{dc92e337-1260-4f83-ad47-436ba5b2cbf2}" Name="nomemanual" />
+          <FieldRef ID="{5fc12400-9218-4854-ba00-158aeb82509f}" Name="nomemodulomanual" />
+          <FieldRef ID="{0c042f56-4828-478b-8dca-e319d1a8dd82}" Name="nomeMacroprocesso" />
+          <FieldRef ID="{b1f21be5-2a41-4939-90b8-3060141502a3}" Name="nomeProcesso" />
+          <FieldRef ID="{7b813373-ff99-401d-bfda-487b67464ee1}" Name="criticidade" />
+          <FieldRef ID="{30033299-a53d-46d0-ba36-14a95f69ccd3}" Name="responsavelTecnico" />
+          <FieldRef ID="{ef09650c-d47b-4624-8278-8a4271f0a6c2}" Name="analistaAOPA" />
+          <FieldRef ID="{b28d4b35-9d14-470e-bace-a14a452f1720}" Name="solicitacaoAberturaRevisaoElaboracao" />
+          <FieldRef ID="{b529cb4e-e498-4eb0-a417-c5be4df6f26d}" Name="dataSolicitacaoAberturaRevisaoElaboracao" />
+          <FieldRef ID="{a555e022-1f61-49df-a8af-266a9c06bcbe}" Name="justificativaRevisaoElaboracao" />
+          <FieldRef ID="{b7eebf5b-a701-41ae-84b2-0070ef217415}" Name="dataInicioRevisao" />
+          <FieldRef ID="{518e1be7-6535-4a61-bbd6-61199bb4a961}" Name="situacaoNomeFase" />
+          <FieldRef ID="{cced448e-46dd-4ad0-a1fd-3a11011e9774}" Name="percentAndamentoFase" />
+          <FieldRef ID="{b158db9e-167f-4f58-a649-043d1c6d03bf}" Name="dataVencimento" />
+          <FieldRef ID="{7c0c8656-c9e1-400a-bf32-b14b52b1af0e}" Name="dataLimiteEntradaRevisao" />
+          <FieldRef ID="{f0a78639-7b31-41dd-b409-986a407f8770}" Name="acao" />
+          <FieldRef ID="{74b4ede8-9421-4ae9-92d8-8aac9c685e06}" Name="destaqueDaSemana" />
+          <FieldRef ID="{77138a7b-f3cb-4db5-8769-d23a60347330}" Name="percentualandamento" />
+          <FieldRef ID="{9634926d-7271-4137-8e69-07d135d3fbd8}" Name="pendencia" />
+          <FieldRef ID="{9e2c1a51-638e-465d-b9aa-765ae1711001}" Name="dataPendencia" />
+          <FieldRef ID="{31907a77-0749-4237-9b03-f4fd279bfa77}" Name="prazoRN" />
+          <FieldRef ID="{184ad99e-9882-44d6-8e11-32b56db700ad}" Name="lookup_HistoricoRetornoRN" />
+          <FieldRef ID="{4c651dfb-1c49-4c22-ace3-2d650f01b520}" Name="dataSuspensao" />
+          <FieldRef ID="{d37ff21b-8a48-42ac-af7f-d88d5a5fa506}" Name="dataExtincao" />
+          <FieldRef ID="{e2fc9154-b3de-4eaa-b0f8-69aacd1578eb}" Name="dataInterrupcao" />
+          <FieldRef ID="{ac167ea9-38f5-4452-955a-a2b2bf1b8a9b}" Name="dataConclusaoFase" />
+          <FieldRef ID="{607e0ab8-65b0-48d7-ba94-f5d0166e6562}" Name="dataVigencia" />
+          <FieldRef ID="{e2bdb472-e2f0-4ea0-98ab-fc6eeb4378d4}" Name="conclusaoAjuste" />
+          <FieldRef ID="{49db3781-5070-42fa-b235-cf22d9148ebe}" Name="conclusaoAnalise" />
+          <FieldRef ID="{576654ca-faba-4aec-90cc-324c36b80730}" Name="conclusaoConsolidacao" />
+          <FieldRef ID="{1722d582-f622-4044-b898-96e9c502621c}" Name="conclusaoProposicao" />
+          <FieldRef ID="{344e6aec-dea1-45d3-9e2e-9294b8cb578d}" Name="conclusaoAprovacao" />
+          <FieldRef ID="{06d7e4a2-d830-49b8-a237-0dc66c376a2f}" Name="conclusaoPublicacao" />
+          <FieldRef ID="{29864399-cc5b-49bd-9b06-718d495e3537}" Name="justificativaAprovacaoExtincao" />
+          <FieldRef ID="{97b17bb5-7ed7-49cd-a505-7119a07ec0ef}" Name="AnalistaDA" />
+          <FieldRef ID="{78bbd04f-b6ea-48ce-bad8-8fed465976a1}" Name="AnalistaDE" />
+          <FieldRef ID="{df791b3e-2a74-4d74-873c-48bd5e62e141}" Name="AnalistaDF" />
+          <FieldRef ID="{de009c38-e6fc-4d1c-b5d6-e69aae2dc025}" Name="AnalistaDN" />
+          <FieldRef ID="{a9d05cd7-c292-4981-8a22-79b3517e67ee}" Name="AnalistaDO" />
+          <FieldRef ID="{e2462bfb-dbd8-4035-aa70-e31bc990943d}" Name="AnalistaDP" />
+        </FieldRefs>
+      </ContentType>
+      <ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef>
+      <ContentTypeRef ID="0x0120" />
+    </ContentTypes>
+    <Fields>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field ID="{57b81e72-feb3-48f3-b179-e1746a0d694d}" Name="situacaoAtoNormativoN" DisplayName="Situação" Type="Lookup" Required="TRUE" ShowField="Title" List="Lists/SituacaoAtoNormativo" Indexed="TRUE" Group="AOPA - Colunas" ShowInNewForm="FALSE"></Field>
+      <Field ID="{6ebca792-0d09-47e5-9589-594c93b42931}" Name="numeroRevisao" DisplayName="Número Revisão" Type="Text" Required="FALSE" Group="AOPA - Colunas" ShowInEditForm="FALSE" ShowInNewForm="FALSE">
+        <Default>00</Default>
+      </Field>
+      <Field ID="{2f7c2c01-858a-433e-bc80-947b493ddc02}" Name="numeroValidacao" DisplayName="Número Validação" Type="Text" Required="FALSE" Group="AOPA - Colunas" ShowInEditForm="FALSE" ShowInNewForm="FALSE">
+        <Default>00</Default>
+      </Field>
+      <Field ID="{b6e00c16-c090-4df5-9974-f0c99070abc3}" Name="numeroAtoNormativoAntigo" DisplayName="Número Ato Normativo Antigo" Type="Number" Required="FALSE" Group="AOPA - Colunas"></Field>
+      <Field ID="{dc92e337-1260-4f83-ad47-436ba5b2cbf2}" Name="nomemanual" DisplayName="Manual" Type="Lookup" Required="FALSE" ShowField="Title" List="lists/TipoManual" Indexed="TRUE" Group="AOPA - Colunas"></Field>
+      <Field ID="{5fc12400-9218-4854-ba00-158aeb82509f}" Name="nomemodulomanual" DisplayName="Módulo" Type="Lookup" ShowField="Title" List="lists/ModuloManual" Indexed="TRUE" Group="AOPA - Colunas"></Field>
+      <Field ID="{0c042f56-4828-478b-8dca-e319d1a8dd82}" Name="nomeMacroprocesso" DisplayName="Macroprocesso" Type="Lookup" List="Lists/Macroprocessos" ShowField="Title" Required="FALSE" Indexed="TRUE" Group="AOPA - Colunas"></Field>
+      <Field ID="{b1f21be5-2a41-4939-90b8-3060141502a3}" Name="nomeProcesso" DisplayName="Processo" Type="Lookup" List="Lists/Processos" ShowField="Title" Required="FALSE" Indexed="TRUE" Group="AOPA - Colunas"></Field>
+      <Field ID="{7b813373-ff99-401d-bfda-487b67464ee1}" Name="criticidade" DisplayName="Criticidade" Type="Choice" Format="Dropdown" Required="FALSE" Group="AOPA - Colunas">
+        <CHOICES>
+          <CHOICE>0 - Baixa</CHOICE>
+          <CHOICE>1 - Média</CHOICE>
+          <CHOICE>2 - Alta</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{30033299-a53d-46d0-ba36-14a95f69ccd3}" Name="responsavelTecnico" DisplayName="Responsável Técnico" Type="UserMulti" List="UserInfo" ShowField="ImnName" Indexed="TRUE" EnforceUniqueValues="FALSE" UserSelectionMode="PeopleOnly" Mult="TRUE" Required="TRUE"></Field>
+      <Field ID="{ef09650c-d47b-4624-8278-8a4271f0a6c2}" Name="analistaAOPA" DisplayName="Analista AOP.A" Type="UserMulti" List="UserInfo" ShowField="ImnName" Indexed="TRUE" EnforceUniqueValues="FALSE" UserSelectionMode="PeopleOnly" Required="TRUE"></Field>
+      <Field ID="{b28d4b35-9d14-470e-bace-a14a452f1720}" Name="solicitacaoAberturaRevisaoElaboracao" DisplayName="Solicitação de Abertura da Revisão/Elaboração" Type="Text" Required="FALSE" Group="AOPA - Colunas" ShowInEditForm="FALSE"></Field>
+      <Field ID="{b529cb4e-e498-4eb0-a417-c5be4df6f26d}" Name="dataSolicitacaoAberturaRevisaoElaboracao" DisplayName="Data da Solicitação da Abertura Revisão/Elaboração" Type="DateTime" Required="FALSE" Format="DateOnly" Group="AOPA - Colunas" ShowInEditForm="FALSE"></Field>
+      <Field ID="{a555e022-1f61-49df-a8af-266a9c06bcbe}" Name="justificativaRevisaoElaboracao" DisplayName="Justificativa Revisão Elaboração" Type="Note" NumLines="6" Required="FALSE" RichText="FALSE" Group="AOPA - Colunas"></Field>
+      <Field ID="{b7eebf5b-a701-41ae-84b2-0070ef217415}" Name="dataInicioRevisao" DisplayName="Data Início Revisão" Type="DateTime" Required="FALSE" Format="DateOnly" Group="AOPA - Colunas" ShowInNewForm="FALSE"></Field>
+      <Field ID="{518e1be7-6535-4a61-bbd6-61199bb4a961}" Name="situacaoNomeFase" DisplayName="Fase da Revisão" Type="Lookup" Required="TRUE" ShowField="Title" List="Lists/FaseRevisaoElaboracao" Indexed="TRUE" Group="AOPA - Colunas" ShowInNewForm="FALSE"></Field>
+      <Field ID="{cced448e-46dd-4ad0-a1fd-3a11011e9774}" Name="percentAndamentoFase" DisplayName="Andamento da Fase" Type="Lookup" Required="True" ShowField="percentualandamento" List="Lists/AndamentoFase" ShowInNewForm="FALSE" Group="AOPA - Colunas"></Field>
+      <Field ID="{b158db9e-167f-4f58-a649-043d1c6d03bf}" Name="dataVencimento" DisplayName="Data Vencimento" Type="DateTime" Required="FALSE" Format="DateOnly" Group="AOPA - Colunas" ShowInNewForm="FALSE"></Field>
+      <Field ID="{7c0c8656-c9e1-400a-bf32-b14b52b1af0e}" Name="dataLimiteEntradaRevisao" DisplayName="Data Limite para Entrada em Revisão" Type="DateTime" Required="FALSE" Format="DateOnly" Group="AOPA - Colunas" ShowInNewForm="FALSE">
+        <DefaultFormula>=[Data Vencimento]-60</DefaultFormula>
+      </Field>
+      <Field ID="{f0a78639-7b31-41dd-b409-986a407f8770}" Name="acao" DisplayName="Ação" Type="Note" NumLines="6" RichText="FALSE" Required="FALSE" Group="AOPA - Colunas" ShowInNewForm="FALSE"></Field>
+      <Field ID="{74b4ede8-9421-4ae9-92d8-8aac9c685e06}" Name="destaqueDaSemana" DisplayName="Destaque Da Semana" Type="Boolean" Required="FALSE" Group="AOPA - Colunas" ShowInNewForm="FALSE">
+        <Default>0</Default>
+      </Field>
+      <Field ID="{77138a7b-f3cb-4db5-8769-d23a60347330}" Name="percentualandamento" DisplayName="Percentual de Andamento" Type="Number" Percentage="TRUE" Required="FALSE" Group="AOPA - Colunas" ShowInDisplayForm="FALSE" ShowInEditForm="FALSE" ShowInNewForm="FALSE"></Field>
+      <Field ID="{9634926d-7271-4137-8e69-07d135d3fbd8}" Name="pendencia" DisplayName="Pendência" Type="Lookup" List="Lists/TipoPendencia" ShowField="Title" Required="FALSE" Indexed="TRUE" Group="AOPA - Colunas" ShowInNewForm="FALSE"></Field>
+      <Field ID="{9e2c1a51-638e-465d-b9aa-765ae1711001}" Name="dataPendencia" DisplayName="Data Pendência" Type="DateTime" Format="DateOnly" Required="FALSE" Group="AOPA - Colunas" ShowInNewForm="FALSE"></Field>
+      <Field ID="{31907a77-0749-4237-9b03-f4fd279bfa77}" Name="prazoRN" DisplayName="Prazo RN" Type="DateTime" Required="FALSE" Format="DateOnly" Group="AOPA - Colunas" ShowInNewForm="FALSE"></Field>
+      <Field ID="{184ad99e-9882-44d6-8e11-32b56db700ad}" Name="lookup_HistoricoRetornoRN" DisplayName="Retorno RN" Type="LookupMulti" Required="FALSE" ShowField="DataRetornoRN" Mult="TRUE" ShowInNewForm="FALSE" List="Lists/historicoRetornoRN" Group="AOPA - Colunas" ShowInEditForm="FALSE"></Field>
+      <Field ID="{4c651dfb-1c49-4c22-ace3-2d650f01b520}" Name="dataSuspensao" DisplayName="Data Suspensão" Type="DateTime" Required="FALSE" Format="DateOnly" Group="AOPA - Colunas" ShowInNewForm="FALSE"></Field>
+      <Field ID="{d37ff21b-8a48-42ac-af7f-d88d5a5fa506}" Name="dataExtincao" DisplayName="Data Extinção" Type="DateTime" Required="FALSE" Format="DateOnly" Group="AOPA - Colunas" ShowInNewForm="FALSE"></Field>
+      <Field ID="{e2fc9154-b3de-4eaa-b0f8-69aacd1578eb}" Name="dataInterrupcao" DisplayName="Data Interrupção" Type="DateTime" Required="FALSE" Format="DateOnly" Group="AOPA - Colunas" ShowInNewForm="FALSE"></Field>
+      <Field ID="{ac167ea9-38f5-4452-955a-a2b2bf1b8a9b}" Name="dataConclusaoFase" DisplayName="Data Conclusão Fase" Type="DateTime" Format="DateOnly" Required="FALSE" Group="AOPA - Colunas" ShowInNewForm="FALSE"></Field>
+      <Field ID="{607e0ab8-65b0-48d7-ba94-f5d0166e6562}" Name="dataVigencia" DisplayName="Data Vigência" Type="DateTime" Required="FALSE" Format="DateOnly" Group="AOPA - Colunas" ShowInNewForm="FALSE"></Field>
+      <Field ID="{e2bdb472-e2f0-4ea0-98ab-fc6eeb4378d4}" Name="conclusaoAjuste" DisplayName="Conclusão do Ajuste" Type="DateTime" Required="FALSE" Format="DateOnly" Group="AOPA - Colunas" ShowInEditForm="FALSE" ShowInNewForm="FALSE"></Field>
+      <Field ID="{49db3781-5070-42fa-b235-cf22d9148ebe}" Name="conclusaoAnalise" DisplayName="Conclusão da Análise" Type="DateTime" Required="FALSE" Format="DateOnly" Group="AOPA - Colunas" ShowInEditForm="FALSE" ShowInNewForm="FALSE"></Field>
+      <Field ID="{576654ca-faba-4aec-90cc-324c36b80730}" Name="conclusaoConsolidacao" DisplayName="Conclusão da Consolidação" Type="DateTime" Required="FALSE" Format="DateOnly" Group="AOPA - Colunas" ShowInEditForm="FALSE" ShowInNewForm="FALSE"></Field>
+      <Field ID="{1722d582-f622-4044-b898-96e9c502621c}" Name="conclusaoProposicao" DisplayName="Conclusão Proposição" Type="DateTime" Required="FALSE" Format="DateOnly" Group="AOPA - Colunas" ShowInEditForm="FALSE" ShowInNewForm="FALSE"></Field>
+      <Field ID="{344e6aec-dea1-45d3-9e2e-9294b8cb578d}" Name="conclusaoAprovacao" DisplayName="Conclusão da Aprovação" Type="DateTime" Required="FALSE" Format="DateOnly" Group="AOPA - Colunas" ShowInEditForm="FALSE" ShowInNewForm="FALSE"></Field>
+      <Field ID="{06d7e4a2-d830-49b8-a237-0dc66c376a2f}" Name="conclusaoPublicacao" DisplayName="Conclusão Publicação" Type="DateTime" Required="FALSE" Format="DateOnly" Group="AOPA - Colunas" ShowInEditForm="FALSE" ShowInNewForm="FALSE"></Field>
+      <Field ID="{29864399-cc5b-49bd-9b06-718d495e3537}" Name="justificativaAprovacaoExtincao" DisplayName="Justificativa Aprovação Extinção" Type="Note" RichText="FALSE" NumLines="6" Required="FALSE" Group="AOPA - Colunas" ShowInEditForm="FALSE" ShowInNewForm="FALSE"></Field>
+      <Field ID="{97b17bb5-7ed7-49cd-a505-7119a07ec0ef}" Name="AnalistaDA" DisplayName="Analista DA" Type="UserMulti" List="UserInfo" ShowField="ImnName" Indexed="TRUE" EnforceUniqueValues="FALSE" UserSelectionMode="PeopleOnly" Mult="TRUE" Required="FALSE" ShowInNewForm="FALSE"></Field>
+      <Field ID="{78bbd04f-b6ea-48ce-bad8-8fed465976a1}" Name="AnalistaDE" DisplayName="Analista DE" Type="UserMulti" List="UserInfo" ShowField="ImnName" Indexed="TRUE" EnforceUniqueValues="FALSE" UserSelectionMode="PeopleOnly" Mult="TRUE" Required="FALSE" ShowInNewForm="FALSE"></Field>
+      <Field ID="{df791b3e-2a74-4d74-873c-48bd5e62e141}" Name="AnalistaDF" DisplayName="Analista DF" Type="UserMulti" List="UserInfo" ShowField="ImnName" Indexed="TRUE" EnforceUniqueValues="FALSE" UserSelectionMode="PeopleOnly" Mult="TRUE" Required="FALSE" ShowInNewForm="FALSE"></Field>
+      <Field ID="{de009c38-e6fc-4d1c-b5d6-e69aae2dc025}" Name="AnalistaDN" DisplayName="Analista DN" Type="UserMulti" List="UserInfo" ShowField="ImnName" Indexed="TRUE" EnforceUniqueValues="FALSE" UserSelectionMode="PeopleOnly" Mult="TRUE" Required="FALSE" ShowInNewForm="FALSE"></Field>
+      <Field ID="{a9d05cd7-c292-4981-8a22-79b3517e67ee}" Name="AnalistaDO" DisplayName="Analista DO" Type="UserMulti" List="UserInfo" ShowField="ImnName" Indexed="TRUE" EnforceUniqueValues="FALSE" UserSelectionMode="PeopleOnly" Mult="TRUE" Required="FALSE" ShowInNewForm="FALSE"></Field>
+      <Field ID="{e2462bfb-dbd8-4035-aa70-e31bc990943d}" Name="AnalistaDP" DisplayName="Analista DP" Type="UserMulti" List="UserInfo" ShowField="ImnName" Indexed="TRUE" EnforceUniqueValues="FALSE" UserSelectionMode="PeopleOnly" Mult="TRUE" Required="FALSE" ShowInNewForm="FALSE"></Field>
+    </Fields>
+    <Views>
+
+
+
+
+
+
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="situacaoAtoNormativoN" />
+          <FieldRef Name="numeroRevisao" />
+          <FieldRef Name="numeroValidacao" />
+          <FieldRef Name="numeroAtoNormativoAntigo" />
+          <FieldRef Name="nomemanual" />
+          <FieldRef Name="nomemodulomanual" />
+          <FieldRef Name="nomeMacroprocesso" />
+          <FieldRef Name="nomeProcesso" />
+          <FieldRef Name="criticidade" />
+          <FieldRef Name="responsavelTecnico" />
+          <FieldRef Name="analistaAOPA" />
+          <FieldRef Name="solicitacaoAberturaRevisaoElaboracao" />
+          <FieldRef Name="dataSolicitacaoAberturaRevisaoElaboracao" />
+          <FieldRef Name="justificativaRevisaoElaboracao" />
+          <FieldRef Name="dataInicioRevisao" />
+          <FieldRef Name="situacaoNomeFase" />
+          <FieldRef Name="percentAndamentoFase" />
+          <FieldRef Name="dataVencimento" />
+          <FieldRef Name="dataLimiteEntradaRevisao" />
+          <FieldRef Name="acao" />
+          <FieldRef Name="destaqueDaSemana" />
+          <FieldRef Name="percentualandamento" />
+          <FieldRef Name="pendencia" />
+          <FieldRef Name="dataPendencia" />
+          <FieldRef Name="prazoRN" />
+          <FieldRef Name="lookup_HistoricoRetornoRN" />
+          <FieldRef Name="dataSuspensao" />
+          <FieldRef Name="dataExtincao" />
+          <FieldRef Name="dataInterrupcao" />
+          <FieldRef Name="dataConclusaoFase" />
+          <FieldRef Name="dataVigencia" />
+          <FieldRef Name="conclusaoAjuste" />
+          <FieldRef Name="conclusaoAnalise" />
+          <FieldRef Name="conclusaoConsolidacao" />
+          <FieldRef Name="conclusaoProposicao" />
+          <FieldRef Name="conclusaoAprovacao" />
+          <FieldRef Name="conclusaoPublicacao" />
+          <FieldRef Name="justificativaAprovacaoExtincao" />
+          <FieldRef Name="AnalistaDA" />
+          <FieldRef Name="AnalistaDE" />
+          <FieldRef Name="AnalistaDF" />
+          <FieldRef Name="AnalistaDN" />
+          <FieldRef Name="AnalistaDO" />
+          <FieldRef Name="AnalistaDP" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

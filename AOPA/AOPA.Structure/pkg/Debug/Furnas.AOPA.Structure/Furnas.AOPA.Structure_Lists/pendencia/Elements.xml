@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{9634926d-7271-4137-8e69-07d135d3fbd8}"
+       Name="pendencia"
+       DisplayName="Pendência"
+       Type="Lookup"
+       List="Lists/TipoPendencia"
+       ShowField="Title"
+       Required="FALSE"
+       Indexed="TRUE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

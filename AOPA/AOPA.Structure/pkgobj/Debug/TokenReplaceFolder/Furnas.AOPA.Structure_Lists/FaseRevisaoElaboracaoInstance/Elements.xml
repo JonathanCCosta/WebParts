@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Fase da Revisão ou Elaboração" OnQuickLaunch="TRUE" TemplateType="10004" Url="Lists/FaseRevisaoElaboracao" Description="Permite ao administrador manter as fases do processo de revisão/elaboração do ato normativo, com opção de consulta, inclusão, edição e exclusão.">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Não Iniciado</Field>
+          <Field Name="NumeroFase">0</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Preparação</Field>
+          <Field Name="NumeroFase">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ajuste</Field>
+          <Field Name="NumeroFase">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Análise</Field>
+          <Field Name="NumeroFase">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Consolidação</Field>
+          <Field Name="NumeroFase">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Proposição</Field>
+          <Field Name="NumeroFase">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Aprovação</Field>
+          <Field Name="NumeroFase">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Publicação</Field>
+          <Field Name="NumeroFase">7</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

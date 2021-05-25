@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Tipo de Ato Normativo" OnQuickLaunch="TRUE" TemplateType="10002" Url="Lists/TipoAtoNormativo" Description="Tipo de Ato Normativo.">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Atribuição</Field>
+          <Field Name="Sigla">AT</Field>
+          <Field Name="Fases">0</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Estatuto Social</Field>
+          <Field Name="Sigla">ES</Field>
+          <Field Name="Fases">0</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Formulário</Field>
+          <Field Name="Sigla">FO</Field>
+          <Field Name="Fases">0</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Instrução Normativa</Field>
+          <Field Name="Sigla">IN</Field>
+          <Field Name="Fases">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Instrução Técnica</Field>
+          <Field Name="Sigla">IT</Field>
+          <Field Name="Fases">0</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Política</Field>
+          <Field Name="Sigla">PO</Field>
+          <Field Name="Fases">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Regulamento Colegiado</Field>
+          <Field Name="Sigla">RC</Field>
+          <Field Name="Fases">0</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Regimento Interno</Field>
+          <Field Name="Sigla">RE</Field>
+          <Field Name="Fases">0</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

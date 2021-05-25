@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="10013">
+      <Receiver>
+        <Name>ER_AtosNormativosItemAdding</Name>
+        <Type>ItemAdding</Type>
+        <Assembly>Furnas.AOPA.Structure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9148c93a37c2f3dc</Assembly>
+        <Class>Furnas.AOPA.Structure.EventReceiver.ER_AtosNormativos.ER_AtosNormativos</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>ER_AtosNormativosItemAdded</Name>
+        <Type>ItemAdded</Type>
+        <Assembly>Furnas.AOPA.Structure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9148c93a37c2f3dc</Assembly>
+        <Class>Furnas.AOPA.Structure.EventReceiver.ER_AtosNormativos.ER_AtosNormativos</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  <Receiver>
+<Name>ER_AtosNormativosItemUpdated</Name>
+<Type>ItemUpdated</Type>
+<Assembly>Furnas.AOPA.Structure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9148c93a37c2f3dc</Assembly>
+<Class>Furnas.AOPA.Structure.EventReceiver.ER_AtosNormativos.ER_AtosNormativos</Class>
+<SequenceNumber>10000</SequenceNumber>
+</Receiver>
+</Receivers>
+</Elements>

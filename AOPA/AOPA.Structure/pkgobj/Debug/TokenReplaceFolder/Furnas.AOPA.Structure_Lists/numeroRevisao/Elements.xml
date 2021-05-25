@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{6ebca792-0d09-47e5-9589-594c93b42931}"
+       Name="numeroRevisao"
+       DisplayName="Número Revisão"
+       Type="Text"
+       Required="FALSE"
+       Group="AOPA - Colunas">
+    <Default>00</Default>
+  </Field>
+</Elements>

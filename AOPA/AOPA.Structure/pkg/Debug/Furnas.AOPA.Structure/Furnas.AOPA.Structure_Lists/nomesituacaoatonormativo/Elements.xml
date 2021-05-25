@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+       ID="{1ac01e9e-fbf4-45ac-979d-0fb3c26a0aff}"
+       Name="nomesituacaoatonormativo"
+       DisplayName="Situação do Ato Normativo"
+       Type="Lookup"
+       Required="TRUE"
+       ShowField="Title"
+       List="lists/SituacaoAtoNormativo"
+       Indexed="TRUE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

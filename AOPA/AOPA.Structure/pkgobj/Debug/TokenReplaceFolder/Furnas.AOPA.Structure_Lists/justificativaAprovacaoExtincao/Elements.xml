@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{29864399-cc5b-49bd-9b06-718d495e3537}"
+       Name="justificativaAprovacaoExtincao"
+       DisplayName="Justificativa Aprovação Extinção"
+       Type="Note"
+       RichText="FALSE"
+       NumLines="6"
+       Required="FALSE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{11f6367f-7183-44db-91c9-f5ac75047173}"
+       Name="AvaliacaoDO"
+       DisplayName="Avaliação DO"
+       Type="Note"
+       NumLines="6"
+       Required="FALSE"
+       RichText="TRUE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

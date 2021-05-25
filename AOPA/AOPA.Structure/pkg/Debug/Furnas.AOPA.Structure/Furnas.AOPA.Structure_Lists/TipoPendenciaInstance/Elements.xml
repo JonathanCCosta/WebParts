@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Tipo de Pendência" OnQuickLaunch="TRUE" TemplateType="10009" Url="Lists/TipoPendencia" Description="Pendências.">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">
+            Órgão gestor foi consultado sobre atualização da norma e ainda não respondeu
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            Órgão gestor não definiu responsável técnico
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            Órgão gestor não definiu data para reunião de Kickoff
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            Minuta a ser enviada pelo órgão gestor
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            Análise da minuta pendente com o órgão gestor na preparação
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            Justificativa do comparativo (versão vigente x proposta inicial) pendente com o órgão gestor na preparação
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            Ajustes a serem realizados com a AOP.A
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            Validação da minuta a ser enviada aos Representantes Normativos pendente com o órgão gestor
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            Análise da minuta pendente com os Representantes Normativos
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            Consolidação das sugestões dos Representantes Normativos pendente com o órgão gestor
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            Justificativa  do comparativo (versão vigente x proposta final) pendente com o órgão gestor na consolidação
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            Quadro de sugestões a ser validado em reunião entre Representantes Normativos e Órgão Gestor
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            Ajustes a serem realizados entre RN e òrgão gestor sobre o quadro de consolidação das sugestões
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            Preparação da documentação para PRD
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            PRD preparada e em processo de análise pela assistente DA
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            PRD enviada para aprovação
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            Validação da documentação pendente com o órgão gestor para envio à Diretoria Executiva
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            Publicação do ato normativo no sistema de RDs pendente pela ASG.P
+          </Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

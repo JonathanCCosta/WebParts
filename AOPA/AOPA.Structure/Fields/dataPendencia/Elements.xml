@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{9e2c1a51-638e-465d-b9aa-765ae1711001}"
+       Name="dataPendencia"
+       DisplayName="Data Pendência"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

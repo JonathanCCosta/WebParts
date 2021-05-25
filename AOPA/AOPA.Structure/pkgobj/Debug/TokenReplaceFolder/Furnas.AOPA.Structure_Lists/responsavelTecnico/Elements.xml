@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{30033299-a53d-46d0-ba36-14a95f69ccd3}"
+       Name="responsavelTecnico"
+       DisplayName="Responsável Técnico"
+       Type="UserMulti"
+       List="UserInfo"
+       ShowField="ImnName"
+       Indexed="TRUE"
+       EnforceUniqueValues="FALSE"
+       UserSelectionMode="PeopleOnly"
+       Mult="TRUE"
+       Required="TRUE">
+  </Field>
+</Elements>

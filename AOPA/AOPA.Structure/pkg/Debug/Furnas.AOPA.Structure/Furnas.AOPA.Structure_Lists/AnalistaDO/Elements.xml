@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{a9d05cd7-c292-4981-8a22-79b3517e67ee}"
+       Name="AnalistaDO"
+       DisplayName="Analista DO"
+       Type="UserMulti"
+       List="UserInfo"
+       ShowField="ImnName"
+       Indexed="TRUE"
+       EnforceUniqueValues="FALSE"
+       UserSelectionMode="PeopleOnly"
+       Mult="TRUE"
+       Required="TRUE">
+  </Field>
+</Elements>

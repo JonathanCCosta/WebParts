@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{80da68c3-0552-46f9-bed2-bec12b6175b1}"
+       Name="statusRevisao"
+       DisplayName="Status Revisão"
+       Type="Calculated"
+       Required="FALSE"
+       Group="AOPA - Colunas"
+       ShowInNewForm="FALSE"
+       ShowInEditForm="FALSE">
+  </Field>
+</Elements>

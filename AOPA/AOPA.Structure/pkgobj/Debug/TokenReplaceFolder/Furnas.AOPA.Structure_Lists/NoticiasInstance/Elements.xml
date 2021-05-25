@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Notícias" OnQuickLaunch="TRUE" TemplateType="10011" Url="Lists/Notícias" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Aecenas mattis, trotor ut psures aliquan</Field>
+          <Field Name="Data da Entrada">2017-11-21</Field>
+          <Field Name="Corpo">É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Aecenas mattis, trotor ut psures aliquan</Field>
+          <Field Name="Data da Entrada">2017-11-22</Field>
+          <Field Name="Corpo">É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Aecenas mattis, trotor ut psures aliquan</Field>
+          <Field Name="Data da Entrada">2017-11-23</Field>
+          <Field Name="Corpo">É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Aecenas mattis, trotor ut psures aliquan</Field>
+          <Field Name="Data da Entrada">2017-11-24</Field>
+          <Field Name="Corpo">É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível.</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

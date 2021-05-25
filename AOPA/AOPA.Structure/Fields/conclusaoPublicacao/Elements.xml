@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{06d7e4a2-d830-49b8-a237-0dc66c376a2f}"
+       Name="conclusaoPublicacao"
+       DisplayName="Conclusão Publicação"
+        Type="DateTime"
+       Required="FALSE"
+       Format="DateOnly"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

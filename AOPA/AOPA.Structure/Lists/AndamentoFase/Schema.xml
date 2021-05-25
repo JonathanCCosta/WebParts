@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="AndamentoFase" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/AndamentoFase" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+
+
+
+
+
+      <ContentType ID="0x010037cf86d739d74341be28d5d8f5713634" Name="ListFieldsContentType">
+        <FieldRefs>
+
+
+
+
+          <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{77138a7b-f3cb-4db5-8769-d23a60347330}" Name="percentualandamento" />
+          <FieldRef ID="{9434644f-1ab4-4cff-9812-638d9362990a}" Name="Descricao" />
+          <FieldRef ID="{4d8a770d-0027-40ad-a788-f8bf594448d5}" Name="nomefaserevisaoelaboracao" />
+        </FieldRefs>
+      </ContentType>
+      <ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef>
+      <ContentTypeRef ID="0x0120" />
+    </ContentTypes>
+    <Fields>
+
+
+
+
+
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field ID="{77138a7b-f3cb-4db5-8769-d23a60347330}" ListItemMenu="TRUE" LinkToItem="TRUE" Name="percentualandamento" DisplayName="Percentual de Andamento" Type="Number" Percentage="TRUE" Required="TRUE" Group="AOPA - Colunas"></Field>
+      <Field Name="Descricao" ID="{9434644f-1ab4-4cff-9812-638d9362990a}" DisplayName="Descrição" Type="Note" Required="TRUE" />
+      <Field ID="{4d8a770d-0027-40ad-a788-f8bf594448d5}" Name="nomefaserevisaoelaboracao" DisplayName="Nome da Fase" Type="Lookup" Required="TRUE" ShowField="Title" List="lists/FaseRevisaoElaboracao" Indexed="TRUE" Group="AOPA - Colunas"></Field>
+    </Fields>
+    <Views>
+
+
+
+
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="percentualandamento" />
+          <FieldRef Name="Descricao" />
+          <FieldRef Name="nomefaserevisaoelaboracao" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+          <GroupBy>
+            <FieldRef Name="nomefaserevisaoelaboracao"></FieldRef>
+          </GroupBy>
+        </Query>
+        
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

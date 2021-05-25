@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="Ato_Display_Revisao" List="113" Url="_catalogs/wp">
+    <File Path="Ato_Display_Revisao\Ato_Display_Revisao.webpart" Url="Furnas.AOPA.Structure_Ato_Display_Revisao.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>

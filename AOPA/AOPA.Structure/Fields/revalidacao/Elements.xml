@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{1ab8fb40-6489-4833-bdf4-33859183fe5f}"
+       Name="revalidacao"
+       DisplayName="Revalidação"
+       Type="Boolean"
+       Required="FALSE"
+       Group="AOPA - Colunas">
+    <Default>0</Default>
+  </Field>
+</Elements>

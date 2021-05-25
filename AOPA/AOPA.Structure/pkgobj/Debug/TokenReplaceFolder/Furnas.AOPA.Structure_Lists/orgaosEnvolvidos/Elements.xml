@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{53e00288-5ffb-46a7-a04b-5f7f087cd3d1}"
+       Name="orgaosEnvolvidos"
+       DisplayName="Órgãos Envolvidos"
+       Type="BusinessData"
+       Required="FALSE"
+       BaseType="Text"
+       List="Lists/OrgaosFurnas"
+       ShowField="Órgão"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

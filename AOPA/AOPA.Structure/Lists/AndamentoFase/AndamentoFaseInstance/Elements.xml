@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Andamento da Fase" OnQuickLaunch="TRUE" TemplateType="10008" Url="Lists/AndamentoFase" Description="Percentual de evolução do processo em cada fase.">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name='percentualandamento'>0</Field>
+          <Field Name='Descricao'>Nenhuma ação</Field>
+          <Field Name='nomefaserevisaoelaboracao'>1;#Não Iniciado</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.5</Field>
+          <Field Name='Descricao'>Enviada CI para Órgão Gestor</Field>
+          <Field Name='nomefaserevisaoelaboracao'>1;#Não Iniciado</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>1</Field>
+          <Field Name='Descricao'>Recebida do Órgão Gestor resposta sobre atualização dos Atos Normativos</Field>
+          <Field Name='nomefaserevisaoelaboracao'>1;#Não Iniciado</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0</Field>
+          <Field Name='Descricao'>Reunião de kickoff realizada</Field>
+          <Field Name='nomefaserevisaoelaboracao'>2;#Preparação</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.1</Field>
+          <Field Name='Descricao'>Reunião de kickoff realizada</Field>
+          <Field Name='nomefaserevisaoelaboracao'>2;#Preparação</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.25</Field>
+          <Field Name='Descricao'>Minuta inicial em preparação</Field>
+          <Field Name='nomefaserevisaoelaboracao'>2;#Preparação</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.5</Field>
+          <Field Name='Descricao'>Reuniões de trabalho em andamento</Field>
+          <Field Name='nomefaserevisaoelaboracao'>2;#Preparação</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.75</Field>
+          <Field Name='Descricao'>Minuta inicial praticamente pronta / fim das reuniões com grupo de trabalho</Field>
+          <Field Name='nomefaserevisaoelaboracao'>2;#Preparação</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>1</Field>
+          <Field Name='Descricao'>Minuta inicial preparada (Recebimento da minuta aprovada pela área gestora permitindo o envio aos RNs.)</Field>
+          <Field Name='nomefaserevisaoelaboracao'>2;#Preparação</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0</Field>
+          <Field Name='Descricao'>Minuta inicial preparada</Field>
+          <Field Name='nomefaserevisaoelaboracao'>3;#Ajuste</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.25</Field>
+          <Field Name='Descricao'>Minuta inicial sendo adequada aos padrões</Field>
+          <Field Name='nomefaserevisaoelaboracao'>3;#Ajuste</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.5</Field>
+          <Field Name='Descricao'>Minuta inicial adequada aos padrões / quadro para os RN em elaboração</Field>
+          <Field Name='nomefaserevisaoelaboracao'>3;#Ajuste</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.75</Field>
+          <Field Name='Descricao'>Aguardando validação do Órgão Gestor para envio aos RN</Field>
+          <Field Name='nomefaserevisaoelaboracao'>3;#Ajuste</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.9</Field>
+          <Field Name='Descricao'>De acordo do Órgão Gestor para envio da minuta aos RN / aguardando de acordo da DA para envio aos RN</Field>
+          <Field Name='nomefaserevisaoelaboracao'>3;#Ajuste</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>1</Field>
+          <Field Name='Descricao'>De acordo do Órgão Gestor para envio da minuta aos RN e Apresentação para DA realizada</Field>
+          <Field Name='nomefaserevisaoelaboracao'>3;#Ajuste</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0</Field>
+          <Field Name='Descricao'>De acordo do Órgão Gestor para envio da minuta aos RN e Apresentação para DA realizada</Field>
+          <Field Name='nomefaserevisaoelaboracao'>4;#Análise</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.25</Field>
+          <Field Name='Descricao'>Email enviado para os RN</Field>
+          <Field Name='nomefaserevisaoelaboracao'>4;#Análise</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.5</Field>
+          <Field Name='Descricao'>Respostas dos RN sendo recebidas</Field>
+          <Field Name='nomefaserevisaoelaboracao'>4;#Análise</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>1</Field>
+          <Field Name='Descricao'>Todas respostas dos RN recebidas</Field>
+          <Field Name='nomefaserevisaoelaboracao'>4;#Análise</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0</Field>
+          <Field Name='Descricao'>Todas respostas dos RN recebidas</Field>
+          <Field Name='nomefaserevisaoelaboracao'>5;#Consolidação</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.25</Field>
+          <Field Name='Descricao'>Elaborar o quadro para consolidação</Field>
+          <Field Name='nomefaserevisaoelaboracao'>5;#Consolidação</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.5</Field>
+          <Field Name='Descricao'>Análise do órgão gestor e preenchimento do quadro para consolidação</Field>
+          <Field Name='nomefaserevisaoelaboracao'>5;#Consolidação</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.75</Field>
+          <Field Name='Descricao'>Ajuste da minuta</Field>
+          <Field Name='nomefaserevisaoelaboracao'>5;#Consolidação</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>1</Field>
+          <Field Name='Descricao'>Validação da documentação pelo Órgão Gestor</Field>
+          <Field Name='nomefaserevisaoelaboracao'>5;#Consolidação</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0</Field>
+          <Field Name='Descricao'>Validação da documentação pelo Órgão Gestor</Field>
+          <Field Name='nomefaserevisaoelaboracao'>6;#Proposição</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.25</Field>
+          <Field Name='Descricao'>Minuta de PRD e anexos em elaboração</Field>
+          <Field Name='nomefaserevisaoelaboracao'>6;#Proposição</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.5</Field>
+          <Field Name='Descricao'>Minuta de PRD e anexos enviada para de acordo do Órgão Gestor</Field>
+          <Field Name='nomefaserevisaoelaboracao'>6;#Proposição</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.75</Field>
+          <Field Name='Descricao'>Minuta de PRD e anexos validados pelo Órgão Gestor / PRD numerada / PRD e anexos entregues na DA</Field>
+          <Field Name='nomefaserevisaoelaboracao'>6;#Proposição</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>1</Field>
+          <Field Name='Descricao'>PRD colocada no sistema da Secretaria Geral</Field>
+          <Field Name='nomefaserevisaoelaboracao'>6;#Proposição</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0</Field>
+          <Field Name='Descricao'>PRD colocada no sistema da Secretaria Geral</Field>
+          <Field Name='nomefaserevisaoelaboracao'>7;#Aprovação</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.25</Field>
+          <Field Name='Descricao'>PRD pautada para reunião (definida reunião na qual a PRD será apreciada)</Field>
+          <Field Name='nomefaserevisaoelaboracao'>7;#Aprovação</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.75</Field>
+          <Field Name='Descricao'>PRD foi aprovada, aguardando disponibilização da RD</Field>
+          <Field Name='nomefaserevisaoelaboracao'>7;#Aprovação</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>1</Field>
+          <Field Name='Descricao'>RD disponibilizada no sistema</Field>
+          <Field Name='nomefaserevisaoelaboracao'>7;#Aprovação</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0</Field>
+          <Field Name='Descricao'>RD disponibilizada no sistema</Field>
+          <Field Name='nomefaserevisaoelaboracao'>8;#Publicação</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>0.5</Field>
+          <Field Name='Descricao'>Documento no Manual de Furnas em elaboração</Field>
+          <Field Name='nomefaserevisaoelaboracao'>8;#Publicação</Field>
+        </Row>
+        <Row>
+          <Field Name='percentualandamento'>1</Field>
+          <Field Name='Descricao'>Ato publicado</Field>
+          <Field Name='nomefaserevisaoelaboracao'>8;#Publicação</Field>
+        </Row>
+      </Rows>
+    </Data>
+
+  </ListInstance>
+</Elements>

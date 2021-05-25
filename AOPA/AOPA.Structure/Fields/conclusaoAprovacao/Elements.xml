@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{344e6aec-dea1-45d3-9e2e-9294b8cb578d}"
+       Name="conclusaoAprovacao"
+       DisplayName="Conclusão da Aprovação"
+       Type="DateTime"
+       Required="FALSE"
+       Format="DateOnly"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

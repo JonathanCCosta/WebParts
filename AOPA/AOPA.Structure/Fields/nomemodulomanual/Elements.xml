@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{5fc12400-9218-4854-ba00-158aeb82509f}"
+       Name="nomemodulomanual"
+       DisplayName="Módulo"
+       Type="Lookup"
+       ShowField="Title"
+       List="lists/ModuloManual"
+       Indexed="TRUE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

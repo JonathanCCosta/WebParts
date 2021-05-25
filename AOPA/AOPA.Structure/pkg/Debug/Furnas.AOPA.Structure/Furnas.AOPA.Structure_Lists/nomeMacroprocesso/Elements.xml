@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{0c042f56-4828-478b-8dca-e319d1a8dd82}"
+       Name="nomeMacroprocesso"
+       DisplayName="Macroprocesso"
+       Type="Lookup"
+       List="Lists/Macroprocessos"
+       ShowField="Title"
+       Required="FALSE"
+       Indexed="TRUE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

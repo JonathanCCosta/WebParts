@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="Minuta_Preparacao" List="113" Url="_catalogs/wp">
+    <File Path="Minuta_Preparacao\Minuta_Preparacao.webpart" Url="Furnas.AOPA.Structure_Minuta_Preparacao.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>

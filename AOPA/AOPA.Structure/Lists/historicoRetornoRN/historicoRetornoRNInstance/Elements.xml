@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Histórico Retorno RN" OnQuickLaunch="TRUE" TemplateType="10014" Url="Lists/historicoRetornoRN" Description="My List Instance"></ListInstance>
+</Elements>

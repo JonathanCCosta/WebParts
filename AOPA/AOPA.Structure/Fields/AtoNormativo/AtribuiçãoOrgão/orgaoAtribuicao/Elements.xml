@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{79d49937-e6b6-4a1b-be36-64f439474ce6}"
+       Name="orgaoAtribuicao"
+       DisplayName="Órgão Atribuição"
+       Type="BusinessData"
+       Required="FALSE"
+       BaseType="Text"
+       List="Lists/OrgaosFurnas"
+       ShowField="Órgão"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

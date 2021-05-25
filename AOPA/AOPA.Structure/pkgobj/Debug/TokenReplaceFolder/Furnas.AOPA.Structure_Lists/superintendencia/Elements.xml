@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{ee34b044-c2f4-4515-aea1-df318200a593}"
+       Name="superintendencia"
+       DisplayName="superintendencia"
+       Type="BusinessData"
+       Required="FALSE"
+       BaseType="Text"
+       List="Lists/OrgaosFurnas"
+       ShowField="Superintendência"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

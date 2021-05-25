@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Situação do Ato Normativo" OnQuickLaunch="TRUE" TemplateType="10003" Url="Lists/SituacaoAtoNormativo" Description="Situação que se encontra um Ato Normativo.">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name='Title'>Em Elaboração</Field>
+          <Field Name='Sigla da Situação'>EL</Field>
+        </Row>
+        <Row>
+          <Field Name='Title'>Extinto</Field>
+          <Field Name='Sigla da Situação'>EX</Field>
+        </Row>
+        <Row>
+          <Field Name='Title'>Interrompido</Field>
+          <Field Name='Sigla da Situação'>IT</Field>
+        </Row>
+        <Row>
+          <Field Name='Title'>Obsoleto</Field>
+          <Field Name='Sigla da Situação'>OB</Field>
+        </Row>
+        <Row>
+          <Field Name='Title'>Em Revisão</Field>
+          <Field Name='Sigla da Situação'>RE</Field>
+        </Row>
+        <Row>
+          <Field Name='Title'>Revalidado</Field>
+          <Field Name='Sigla da Situação'>RV</Field>
+        </Row>
+        <Row>
+          <Field Name='Title'>Suspenso</Field>
+          <Field Name='Sigla da Situação'>SU</Field>
+        </Row>
+        <Row>
+          <Field Name='Title'>Vigente</Field>
+          <Field Name='Sigla da Situação'>VI</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>
+
+

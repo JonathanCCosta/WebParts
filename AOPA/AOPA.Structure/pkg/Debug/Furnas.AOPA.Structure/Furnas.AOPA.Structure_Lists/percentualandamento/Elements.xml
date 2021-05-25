@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{77138a7b-f3cb-4db5-8769-d23a60347330}"
+       Name="percentualandamento"
+       DisplayName="Percentual de Andamento"
+       Type="Number"
+       Percentage="TRUE"
+       Required="FALSE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

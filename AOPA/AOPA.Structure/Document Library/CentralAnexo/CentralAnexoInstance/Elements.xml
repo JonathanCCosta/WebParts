@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Central de Anexos" OnQuickLaunch="TRUE" TemplateType="10018" Url="Lists/Central de Anexos" Description="My List Instance"></ListInstance>
+</Elements>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{b1f21be5-2a41-4939-90b8-3060141502a3}"
+       Name="nomeProcesso"
+       DisplayName="Processo"
+       Type="Lookup"
+       List="Lists/Processos"
+       ShowField="Title"
+       Required="FALSE"
+       Indexed="TRUE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

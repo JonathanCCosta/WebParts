@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Representantes Normativos" OnQuickLaunch="TRUE" TemplateType="10007" Url="Lists/RepresentanteNormativo" Description="Permite ao administrador manter os representantes normativos de cada diretoria, com opções de consulta, inclusão, edição e exclusão."></ListInstance>
+</Elements>

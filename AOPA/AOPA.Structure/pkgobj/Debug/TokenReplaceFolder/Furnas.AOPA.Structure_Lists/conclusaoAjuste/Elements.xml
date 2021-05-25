@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{e2bdb472-e2f0-4ea0-98ab-fc6eeb4378d4}"
+       Name="conclusaoAjuste"
+       DisplayName="Conclusão do Ajuste"
+       Type="DateTime"
+       Required="FALSE"
+       Format="DateOnly"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

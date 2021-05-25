@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{a555e022-1f61-49df-a8af-266a9c06bcbe}"
+       Name="justificativaRevisaoElaboracao"
+       DisplayName="Justificativa Revisão Elaboração"
+       Type="Note"
+       NumLines="6"
+       Required="FALSE"
+       RichText="FALSE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

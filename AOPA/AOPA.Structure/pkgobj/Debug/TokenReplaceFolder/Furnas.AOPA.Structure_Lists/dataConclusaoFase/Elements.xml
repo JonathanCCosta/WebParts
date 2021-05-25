@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{ac167ea9-38f5-4452-955a-a2b2bf1b8a9b}"
+       Name="dataConclusaoFase"
+       DisplayName="Data Conclusão Fase"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>

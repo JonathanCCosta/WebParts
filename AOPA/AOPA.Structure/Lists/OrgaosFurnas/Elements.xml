@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Title="Órgãos Furnas"
+    OnQuickLaunch="TRUE"
+    TemplateType="600"
+    FeatureId="00bfea71-de22-43b2-a848-c05709900100"
+    Url="Lists/OrgaosFurnas"
+    Description="Lista externa do GERPES (SAP).">
+    <DataSource>
+      <Property Name="Entity" Value="Novo tipo de conteúdo externo (4)"/>
+      <Property Name="EntityNamespace" Value="http://shpt15"/>
+      <!--<Property Name="Entity" Value="Novo tipo de conteúdo externo" />
+      <Property Name="EntityNamespace" Value="http://da-furnasnetd/sites/aopa"/>-->
+      <Property Name="LobSystemInstance" Value="gerpes"/>
+      <Property Name="SpecificFinder" Value="VW_ORGAO_NOMESLer Item"/>
+    </DataSource>
+  </ListInstance>
+</Elements>

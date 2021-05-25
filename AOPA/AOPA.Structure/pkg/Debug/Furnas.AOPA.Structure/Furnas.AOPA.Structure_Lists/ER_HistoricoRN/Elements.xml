@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="10014">
+      <Receiver>
+        <Name>ER_HistoricoRNItemAdded</Name>
+        <Type>ItemAdded</Type>
+        <Assembly>Furnas.AOPA.Structure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9148c93a37c2f3dc</Assembly>
+        <Class>Furnas.AOPA.Structure.EventReceiver.ER_HistoricoRN.ER_HistoricoRN</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  </Receivers>
+</Elements>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{2f7c2c01-858a-433e-bc80-947b493ddc02}"
+       Name="numeroValidacao"
+       DisplayName="Número Validação"
+       Type="Text"
+       Required="FALSE"
+       Group="AOPA - Colunas">
+    <Default>00</Default>
+  </Field>
+</Elements>

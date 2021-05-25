@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{b6e00c16-c090-4df5-9974-f0c99070abc3}"
+       Name="numeroAtoNormativoAntigo"
+       DisplayName="Número Ato Normativo Antigo"
+       Type="Number"
+       Required="FALSE"
+       Group="AOPA - Colunas">
+  </Field>
+</Elements>
