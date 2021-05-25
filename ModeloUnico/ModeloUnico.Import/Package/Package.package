@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="186fe48d-7dc0-472b-952e-13bf8e92ddc1" solutionId="186fe48d-7dc0-472b-952e-13bf8e92ddc1" resetWebServer="false" sharePointProductVersion="15.0" name="Furnas.GestaoSPE.ModeloUnico.Import" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="ClosedXML.dll" deploymentTarget="WebApplication" sourcePath="bin\Debug\ClosedXML.dll" />
+    <customAssembly location="Excel.dll" deploymentTarget="WebApplication" sourcePath="bin\Debug\Excel.dll" />
+  </assemblies>
+  <features>
+    <featureReference itemId="9ffe5ad5-e5fb-4820-a846-db534436d3e0" />
+  </features>
+</package>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="dcbfe735-2584-46b4-90ed-13b9cb0126a3" Scope="Site" Title="ImportExcel">
+  <ElementManifests>
+    <ElementManifest Location="VWP_ImportExcel\Elements.xml" />
+    <ElementFile Location="VWP_ImportExcel\VWP_ImportExcel.webpart" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\importexcel.js" />
+    <ElementManifest Location="CSS\Elements.xml" />
+    <ElementFile Location="CSS\importexcel.css" />
+  </ElementManifests>
+</Feature>

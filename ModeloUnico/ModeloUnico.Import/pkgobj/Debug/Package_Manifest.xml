@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="186fe48d-7dc0-472b-952e-13bf8e92ddc1" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="ClosedXML.dll" DeploymentTarget="WebApplication" />
+    <Assembly Location="Excel.dll" DeploymentTarget="WebApplication" />
+    <Assembly Location="Furnas.GestaoSPE.ModeloUnico.Import.dll" DeploymentTarget="WebApplication">
+      <SafeControls>
+        <SafeControl Assembly="Furnas.GestaoSPE.ModeloUnico.Import, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc126310508e6050" Namespace="Furnas.GestaoSPE.ModeloUnico.Import.WebParts.VWP_ImportExcel" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="Furnas.GestaoSPE.ModeloUnico.Import_ImportExcel\Feature.xml" />
+  </FeatureManifests>
+</Solution>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="CSS" Url="SitePages/css">
+    <File Path="CSS\importexcel.css" Url="importexcel.css" IgnoreIfAlreadyExists="TRUE" Type="GhostableInLibrary" />
+  </Module>
+</Elements>

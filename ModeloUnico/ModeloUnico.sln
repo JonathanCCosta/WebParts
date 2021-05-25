@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Furnas.GestaoSPE.ModeloUnico.Import", "Furnas.GestaoSPE.ModeloUnico.Import\Furnas.GestaoSPE.ModeloUnico.Import.csproj", "{EEEA33BE-5698-47D1-B00F-200866D8A5AF}"
+	GlobalSection(JazzSourceControlProviderSolutionProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndProject
+Global
+	GlobalSection(JazzSourceControlProviderSolutionProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEEA33BE-5698-47D1-B00F-200866D8A5AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEEA33BE-5698-47D1-B00F-200866D8A5AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEEA33BE-5698-47D1-B00F-200866D8A5AF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EEEA33BE-5698-47D1-B00F-200866D8A5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEEA33BE-5698-47D1-B00F-200866D8A5AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEEA33BE-5698-47D1-B00F-200866D8A5AF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
